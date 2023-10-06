@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+    background-image: url(https://www.otomaniac.com/wp-content/uploads/2015/08/BMW-3-series.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+}
