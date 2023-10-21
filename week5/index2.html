@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <tittle>Latian Web Bersama si Unyil</tittle>
+    </head>
+
+    <body>
+        <h1>Apa yang dapat dilakukan JavaScript</h1>
+        <img id="myImage" onclick="changeImage()" src="op.jpg">
+        <p>Ketik tombol berikut untuk merubah konten</p>
+        <script>
+            function changeImage() {
+                var image = document.getElementById('myImage');
+                if (image.src.match("balmond")) {
+                    image.src = "op.jpg";
+                } else {
+                    image.src="ip.jpg"
+                }
+            }
+        </script>
+    </body>
+</html>
